@@ -1,3 +1,5 @@
 # Lab Report 1 - Remote Access and FileSystem (Week 1)
 `cd`:
-  1. ![Image](https://ucsdcloud-my.sharepoint.com/:i:/g/personal/fyash_ucsd_edu/EfGW9wG41clDuqHJZBXEIp4B1iKeX1SvmwClfISonGIbkw?e=gVpBn0). This command was run in the `/home` directory. I believe this no changes occured because `cd` 
+  1. ![Image](https://ucsdcloud-my.sharepoint.com/:i:/g/personal/fyash_ucsd_edu/EfGW9wG41clDuqHJZBXEIp4B1iKeX1SvmwClfISonGIbkw?e=gVpBn0). This command was run in the `/home` directory. No changes occured because `cd` is the command to change directory but it requires a directory to switch to. So by running just `cd`, the terminal does not know where to go and just stays in the current directory without changing anything. This is not an error because `cd` is built to do nothing when nothing follows the command.
+  2. This command was initially run in the `/home` directory but led into the `/home/lecture1/messages/` directory after being executed. This occured because `cd` tells the terminal to change directories and the terminal was given an absolute path into the messages folder. If the relative path `lecture1/messages` was used, after being executed, the current working directory would also be `/home/lecture1/messages/`. This is not an error because the command performed exactly as expected and changed the directory to the one indicated in the prompt.
+  3. 
