@@ -65,6 +65,5 @@ Call 1:
 1. When running the `/add-message` command, the `handleRequest(URI url)` is called.
 2. When `handleRequest(URI url)` is called, the entire url ("http://localhost:7018/add-message?s=Hello") is passed as type URI. In the `Handler` class, the updated fields are an array list named `inpList` which contains all the messages added (Hello), an array of type String named `queryInput` which has the query split at "=" ("s", "Hello"), and a String `outputString` which contains the list in a numbered form to return (1. Hello).
 3. Because when initialized `inpList` and `outputString` were initialized to be empty, when the command is run they are changed from empty to contain "Hello" and "1. Hello" respectively. However, because `queryInput` is initialized with content in it, no changes occur because nothing is assigned to it after the first command call. Additionally, because `url` of type URI is an argument, it changes to the arguments passed to the method every time it is called, in this case, it is "http://localhost:7018/add-message?s=Hello".
-
 Call 2:
-!
+![Image2](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img2.png)
