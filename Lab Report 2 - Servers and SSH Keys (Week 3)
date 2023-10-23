@@ -1,7 +1,6 @@
 # Lab Report 2 - Servers and SSH Keys (Week 3)
 ## Part 1
 Code: 
-`
 import java.util.*;
 import java.io.IOException;
 import java.net.URI;
@@ -59,4 +58,3 @@ class SearchEngine {
         Server.start(port, new Handler());
     }
 }
-`
