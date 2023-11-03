@@ -73,10 +73,11 @@ Call 2:
 3. Because the `/add-message` command has already been called, both `inpList` and `outputString` have contents inside them. When the current command is run, `inpList` changes from {"Hello"} to {"Hello", "How are you"} because a simple `add()` function is used. `outputString` however is reinitialized because it is a local variable so it changes from "" to "1. Hello\n2. How are you" after the loop is executed. Similarly, `queryInput` is also reinitialized again because it is a local variable. In addition, `url` is an argument which changes every time the method is called, which in this case changes to "http://localhost:7018/add-message?s=How%20are%20you".
 
 ## Part 2
-![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img3.png)
 1. Absolute path: `C:\Users\Fnu Yash\.ssh\.id_rsa.pub`.
-![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img5.png)
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img3.png)
 2. Absolute path: `/home/linux/ieng6/cs15lfa23/cs15lfa23kq/.ssh/authorized_keys`.
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img5.png)
+3.
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img4.png)
 
 ## Part 3
