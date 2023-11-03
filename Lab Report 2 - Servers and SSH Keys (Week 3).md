@@ -78,4 +78,6 @@ Call 2:
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img5.png)
 2. Absolute path: `/home/linux/ieng6/cs15lfa23/cs15lfa23kq/.ssh/authorized_keys`.
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img4.png)
-   
+
+## Part 3
+One thing I learned from labs during weeks 2 and 3 is how to ssh into a remote computer. I have always found it interesting how we can connect to powerful computers to run tasks that can not be run onto our own computer. Additionally, the tutorial on how to set up a key so I do not have to enter my password every time I log in was also new and incredibly helpful.
