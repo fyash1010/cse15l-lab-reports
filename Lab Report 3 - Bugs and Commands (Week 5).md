@@ -46,3 +46,6 @@ Command: `grep`
 1. `-f`
 - The image shows the partial output of the command `grep -f basePairBiomedLines.txt basePairInBiomed.txt`, the remaining output is just the rest of the matched patterns in the file which could not be displayed on the screen at the same time. The     command takes the file "basePairBiomedLines.txt" as input for patterns and matches it with the contents of "basePairInBiomed.txt" and returns all the lines which contain the patterns found in "basePairBiomedLines.txt".
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img6.png)
+
+- Running the command `grep -f ./technical/911report ./technical/biomed` gives an error saying that the arguments are directories. This error occurs because `grep -f` looks for patterns found in files and not directories so when it is given directories as inputs instead of files, it just returns `grep: ARGUMENT1: Is a directory`.
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img7.png)
