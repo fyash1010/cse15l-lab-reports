@@ -63,3 +63,10 @@ Command: `grep`
 
 - When the command is ran the terminal outputs the same error: `grep: ARGUMENT1: Is a directory` because it expects a file but is given a directory.
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img11.png)
+
+4. `-w`: Source `man grep`
+- Although the output of the `grep -w` command might seem similar to the ones with `-i` and `-e`, it is different because rather than matching patterns, it matches words. For example, `-e` would match "Da" with a line contaning the word "Have a good Day" because the pattern "Da" is found within it. But `-w` only matches entire words in a case sensitive manner meaning it will only match when the entire word is found on the line.
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img12.png)
+
+- As seen in all other variations of this command, the output when running with a directory is `grep: ARGUMENT1: Is a directory`. This happens because whether the `-e` or `-i` or -`w` flag is given, the basic functionality of the `grep` command is still to match patterns and words within a file. However, it is possible to use the `-r` flag which stands for "recursively" to input a directory and search within every file in the directory.
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img13.png)
