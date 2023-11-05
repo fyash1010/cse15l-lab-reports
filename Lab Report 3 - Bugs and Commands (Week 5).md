@@ -56,3 +56,6 @@ Command: `grep`
 
 - Similar to `-f`, when a directory is passed to the `grep -e` command instead of a file, the terminal outputs the error `grep: ARGUMENT1: Is a directory`. This is because the terminal is expecting a file to match the pattern in but is given a directory instead of a file.
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img9.png)
+
+3. `-i`: Source: `man grep`
+- The `grep -i` command is incredibly similar to the `grep -e` command in the sense that it takes an 
