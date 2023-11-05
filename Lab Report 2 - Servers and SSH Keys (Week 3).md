@@ -74,10 +74,13 @@ Call 2:
 
 ## Part 2
 1. Absolute path: `C:\Users\Fnu Yash\.ssh\.id_rsa.pub`.
+
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img3.png)
 2. Absolute path: `/home/linux/ieng6/cs15lfa23/cs15lfa23kq/.ssh/authorized_keys`.
+
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img5.png)
 3.
+
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img4.png)
 
 ## Part 3
