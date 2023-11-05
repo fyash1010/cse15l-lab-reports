@@ -58,4 +58,8 @@ Command: `grep`
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img9.png)
 
 3. `-i`: Source: `man grep`
-- The `grep -i` command is incredibly similar to the `grep -e` command in the sense that it takes an 
+- The `grep -i` command is incredibly similar to the `grep -e` command in the sense that it takes an arguemnt as a pattern and matches it with the contents of the file passed as the second argument. The only difference however is that `-e` is case sensative meaning it will not match "Happy" with "happy" or "hApPy" while `-i` takes away the case sensitive nature.
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img10.png)
+
+- INSERT EXPLANATION
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img11.png)
