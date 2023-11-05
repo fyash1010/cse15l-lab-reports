@@ -61,5 +61,5 @@ Command: `grep`
 - The `grep -i` command is incredibly similar to the `grep -e` command in the sense that it takes an arguemnt as a pattern and matches it with the contents of the file passed as the second argument. The only difference however is that `-e` is case sensative meaning it will not match "Happy" with "happy" or "hApPy" while `-i` takes away the case sensitive nature.
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img10.png)
 
-- INSERT EXPLANATION
+- When the command is ran the terminal outputs the same error: `grep: ARGUMENT1: Is a directory` because it expects a file but is given a directory.
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img11.png)
