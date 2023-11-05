@@ -49,3 +49,10 @@ Command: `grep`
 
 - Running the command `grep -f ./technical/911report ./technical/biomed` gives an error saying that the arguments are directories. This error occurs because `grep -f` looks for patterns found in files and not directories so when it is given directories as inputs instead of files, it just returns `grep: ARGUMENT1: Is a directory`.
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img7.png)
+
+2. `-e`: Source: `man grep`
+- The command compares takes in the first argument ("Introduction") as the pattern and compares it with the contents in the second argument ("1468-6708-3-1.txt"). The command then returns the matching contents to the terminal.
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img8.png)
+
+- Similar to `-f`, when a directory is passed to the `grep -e` command instead of a file, the terminal outputs the error `grep: ARGUMENT1: Is a directory`. This is because the terminal is expecting a file to match the pattern in but is given a directory instead of a file.
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img9.png)
