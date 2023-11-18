@@ -17,4 +17,4 @@
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img18.png)
 7. `<PgDn><up><up><up><up><up><up>`
 
-![Image]
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img19.png)
