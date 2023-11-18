@@ -18,3 +18,10 @@
 7. `<PgDn><up><up><up><up><up><up><1><e><s><2><esc><:wq><enter>`
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img19.png)
+8. `bash test.sh` `<enter>`
+
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img20.png)
+9. `git add ListExamples.java` `<enter>`
+
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img21.png)
+10. 
