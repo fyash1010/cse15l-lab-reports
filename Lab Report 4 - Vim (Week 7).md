@@ -3,25 +3,35 @@
 1. `ssh cs15lfa23kq@ieng6.ucsd.edu` `<enter>`
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img14.png)
+
 3. `git clone git@github.com:ucsd-cse15l-s23/lab7.git` `<enter>`
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img15.png)
+
 4. `cd lab7/` `<enter>`
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img16.png)
+
 5. `bash test.sh` `<enter>`
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img17.png)
+
 6. `vim ListExamples.java` `<enter`
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img18.png)
+
 7. `<PgDn><up><up><up><up><up><up><1><e><s><2><esc><:wq><enter>`
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img19.png)
+
 8. `bash test.sh` `<enter>`
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img20.png)
+
 9. `git add ListExamples.java` `<enter>`
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img21.png)
-10. 
+
+10. `git commit` `<enter>`
+
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img22.png)
