@@ -9,3 +9,12 @@
 4. `cd lab7/` `<enter>`
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img16.png)
+5. `bash test.sh` `<enter>`
+
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img17.png)
+6. `vim ListExamples.java` `<enter`
+
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img18.png)
+7. `<PgDn><up><up><up><up><up><up><up>`
+
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img19.png)
