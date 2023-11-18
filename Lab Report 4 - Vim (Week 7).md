@@ -35,3 +35,11 @@
 10. `git commit` `<enter>`
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img22.png)
+
+11. "Commit" `<esc><:wq><enter>`
+
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img23.png)
+
+12. `git push` `<enter>`
+
+![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img24.png)
