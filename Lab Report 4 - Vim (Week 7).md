@@ -43,3 +43,5 @@
 11. `git push` `<enter>`: Pushes the latest commit to the online github repository for it to be viewable by everyone on the web.
 
 ![Image](https://github.com/fyash1010/cse15l-lab-reports/blob/main/img24.png)
+
+12. Test Image: ![Screenshot 2023-11-18 164149](https://github.com/fyash1010/cse15l-lab-reports/assets/146874433/827ef0d1-4701-4659-b8bf-dbef187cb1b3)
