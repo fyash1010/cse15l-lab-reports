@@ -22,6 +22,8 @@ public void testReverseInPlace() {
 ```
 3:
 
+![img25](https://github.com/fyash1010/cse15l-lab-reports/assets/146874433/07c3c61c-8c74-4657-89e6-218916ba71ba)
+
 4: 
 - Before:
   ```
