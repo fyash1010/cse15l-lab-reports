@@ -114,6 +114,11 @@ else
 fi
 ```
 
+When running `bash grade.sh` we do not get expected results because the `javac` command is actually behaving incorrectly. This is because the `CPATH` variable is using `:` for MacOS instead of `;` on Windows. A very simple to this is to `vim` into the `grade.sh` file in `CPATH`, replace the two `:` with `;`. After making the changes and rerunning `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`, you should see that the error has been resolved:
+
+![img29](https://github.com/fyash1010/cse15l-lab-reports/assets/146874433/49a41253-c20b-4292-b95b-1dc7d6bce32e)
+
+If you have any further questions, please feel free to reach out!
 
 ## Part 2 - Reflection
 
