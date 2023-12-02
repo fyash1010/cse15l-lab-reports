@@ -21,7 +21,8 @@ They both match perfectly which means the `javac` command should work correctly.
 
 ![img28](https://github.com/fyash1010/cse15l-lab-reports/assets/146874433/0fbe8489-671b-4be8-9933-2890643f81c3)
 
-4. 
+4. Ok thanks for the images and context it seems like I have figured out what the problem is. However, first let me jsut confirm the file structure:
+
 
 
 ## Part 2 - Reflection
