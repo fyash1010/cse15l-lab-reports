@@ -53,9 +53,10 @@ They both match perfectly which means the `javac` command should work correctly.
   TestListExamples.java
   
   grade.sh
+```
 
 with `grade.sh`'s contents being:
-```
+
 
 ```
 rm -rf student-submission
