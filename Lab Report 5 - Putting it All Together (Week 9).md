@@ -7,6 +7,17 @@
 
 I have a guess to as why this may be happening which is that maybe I am using an outdated version of junit which is not recognized correctly or maybe bash files run javac commands differently but I am not sure how I can fix this. Could you please provide some input? Thanks, Yash.
 
+2. Oh this is interesting. Have you confirmed if the `lib` folder can be found as mentioned in your `CPATH` variable, and if the junit packages are named the same? Can you try using the `ls` command to check if the files which you are trying to refer to are present?
+
+3. Ok so I tried what you suggested but there seems to be no problem with the junit files or the lib folder. This is what my `CPATH` variable looks like:
+
+![img26](https://github.com/fyash1010/cse15l-lab-reports/assets/146874433/58c8d4a4-5443-46c4-a8a5-8da3446dd9f0)
+
+and this is the `lib` folder and files in the directory: 
+
+![img27](https://github.com/fyash1010/cse15l-lab-reports/assets/146874433/3e02ebe4-8db3-4251-8e13-9c1087194635)
+
+They both match perfectly which means the javac command should work correctly. 
 
 ## Part 2 - Reflection
 
