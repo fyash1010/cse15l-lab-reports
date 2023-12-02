@@ -5,7 +5,7 @@
 
 ![img25](https://github.com/fyash1010/cse15l-lab-reports/assets/146874433/5cca5119-8b9a-4804-896c-8859540c4ce7)
 
-I have a guess to as why this may be happening which is that maybe I am using an outdated version of junit which is not recognized correctly or maybe bash files run javac commands differently but I am not sure how I can fix this. Could you please provide some input? Thanks, Yash.
+I have a guess to as why this may be happening which is that maybe I am using an outdated version of junit which is not recognized correctly or maybe bash files run `javac` commands differently but I am not sure how I can fix this. Could you please provide some input? Thanks, Yash.
 
 2. Oh this is interesting. Have you confirmed if the `lib` folder can be found as mentioned in your `CPATH` variable, and if the junit packages are named the same? Can you try using the `ls` command to check if the files which you are trying to refer to are present?
 
@@ -17,7 +17,12 @@ and this is the `lib` folder and files in the directory:
 
 ![img27](https://github.com/fyash1010/cse15l-lab-reports/assets/146874433/3e02ebe4-8db3-4251-8e13-9c1087194635)
 
-They both match perfectly which means the javac command should work correctly. 
+They both match perfectly which means the `javac` command should work correctly. I can also confirm that the issue is with the `javac` command as the "Correct file submitted" and the "Compilation failed! Exit code: 1" messages sandwich the error and the only command associated with junit in that section is `javac.exe -cp $CPATH ./grading-area/*.java`.
+
+![img28](https://github.com/fyash1010/cse15l-lab-reports/assets/146874433/0fbe8489-671b-4be8-9933-2890643f81c3)
+
+4. 
+
 
 ## Part 2 - Reflection
 
