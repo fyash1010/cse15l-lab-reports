@@ -23,6 +23,7 @@ They both match perfectly which means the `javac` command should work correctly.
 
 4. Ok thanks for the images and context it seems like I have figured out what the problem is. However, first let me jsut confirm the file structure:
 
+```
 ./list-examples-grader/
 
   ./grading-area/
@@ -54,6 +55,7 @@ They both match perfectly which means the `javac` command should work correctly.
   grade.sh
 
 with `grade.sh`'s contents being:
+```
 
 ```
 rm -rf student-submission
